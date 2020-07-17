@@ -1,0 +1,100 @@
+
+#content, #content *{
+    background-color: rgb(255, 255, 255);
+}
+
+#content{
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+p{
+    margin-top: 8px;
+    margin-bottom: 2px;   
+}
+
+#author{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+#cover #title{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 120%;
+}
+
+#cover #description{
+    margin: 10px 15px;
+    color: rgb(53, 52, 52);
+}
+
+#cover #link{
+    margin: 10px 15px;
+    color: rgb(114, 113, 113);
+}
+
+#bold{
+    font-weight: bold;
+    
+}
+
+#gray{
+    color: rgb(124, 124, 136);
+}
+
+#cover-top{
+    width: 100%;
+    margin-bottom: 0px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    
+}
+
+#cover-bottom{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    
+}
+
+#cover{
+    border: 1px solid rgba(196, 196, 196, 0.301);
+    border-radius: 5px;
+    width: 97%;
+    
+}
+
+#cover:hover{
+    cursor: pointer;
+}
+
+#higher-order-components
+{
+    display: flex;
+    color: rgb(95, 95, 95);
+    margin-top: 10px;
+
+}
+
+#higher-order-components span{
+    margin-right: 65px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.icon{
+    /* this color will change later */
+    animation-name: expand;
+}
+
+.icon:hover{
+    color: rgb(128, 128, 128);
+    transition: 0.5s;
+}
+
+
+@keyframes expand{
+    
+} 
